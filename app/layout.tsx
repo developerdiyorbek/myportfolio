@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     "diyordev, diyor-dev, diyorbek, developerdiyorbek, diyorbekdeveloper, sulaymonov diyorbek, Diyorbek Sulaymonov, DiyorDev, Sulaymonov Diyorbek, djurabayevich",
   openGraph: {
     title: "Diyorbek Sulaymonov",
-    description: "Diyorbek's blog",
+    description: "Diyorbek's portfolio",
     type: "website",
     url: "https://diyor-dev.uz",
     locale: "en_EN",
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: ChildProps) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body className={`${workSans.variable} overflow-x-hidden`}>
         <ThemeProvider
           attribute="class"

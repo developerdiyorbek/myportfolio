@@ -1,8 +1,15 @@
 "use client";
 
+import VisuallyHidden from "@/components/shared/visuallyHidden";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import {
+  Sheet,
+  SheetContent,
+  SheetDescription,
+  SheetTitle,
+  SheetTrigger,
+} from "@/components/ui/sheet";
 import { navLinks } from "@/constants";
 import { Menu } from "lucide-react";
 import Link from "next/link";
@@ -25,6 +32,12 @@ const HamburgerMenu = () => {
         </Button>
       </SheetTrigger>
       <SheetContent side={"left"}>
+        <VisuallyHidden>
+          <SheetTitle>Menu</SheetTitle>
+          <SheetDescription>
+            This is the menu for navigation links
+          </SheetDescription>
+        </VisuallyHidden>
         <Link href={"/"}>
           <h1 className="text-3xl md:text-4xl">Diyorbek</h1>
         </Link>
@@ -34,7 +47,7 @@ const HamburgerMenu = () => {
             <Link
               href={nav.route}
               key={nav.name}
-              className={`hover:bg-blue-400/20 py-[6px] px-3 cursor-pointer rounded transition-colors flex items-center gap-1 ${
+              className={`hover:bg-blue-400/20 py-[6px] px-3 cursor-pointer rounded transition-colors flex items-center gap-2 ${
                 pathname === nav.route && "text-blue-400 bg-blue-400/20"
               }`}
             >
