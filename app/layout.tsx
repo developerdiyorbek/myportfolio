@@ -26,7 +26,8 @@ export const metadata: Metadata = {
     type: "website",
     url: "https://diyor-dev.uz",
     locale: "en_EN",
-    images: "/myImage.png",
+    images:
+      "https://photos.google.com/photo/AF1QipM9WlHFNoM4NJ7BjrosFVwC5LJxFCssmTY5sBUu",
     countryName: "Uzbekistan",
     siteName: "diyor-dev",
     emails: "diyorbeksulaymonov70@gmail.com",
