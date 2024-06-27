@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import { Work_Sans } from "next/font/google";
 import NextTopLoader from "nextjs-toploader";
-import { ChildProps } from "@/types";
 
-import "./globals.css";
+import { ChildProps } from "@/types";
 import { ThemeProvider } from "@/components/providers/themeProvider";
+import "./globals.css";
 
 const workSans = Work_Sans({
   subsets: ["latin"],
@@ -15,7 +15,7 @@ const workSans = Work_Sans({
 export const metadata: Metadata = {
   metadataBase: new URL("https://diyor-dev.uz"),
   title: "Diyorbek Sulaymonov",
-  description: "Diyorbek's blog",
+  description: "Diyorbek's portfolio",
   authors: [{ name: "Sulaymonov Diyorbek" }],
   icons: { icon: "/favicon.png" },
   keywords:
