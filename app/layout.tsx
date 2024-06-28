@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     url: "https://diyor-dev.uz",
     locale: "en_EN",
     images:
-      "https://photos.google.com/photo/AF1QipM9WlHFNoM4NJ7BjrosFVwC5LJxFCssmTY5sBUu",
+      "https://lh3.googleusercontent.com/pw/AP1GczMY8bWabI0Pb2d0rtRXQisIjewIxleTbbjssR6KUAjH02ipnrf1oNYec3AGUonA7PcIxI6ew0DFz90DryXOJdpJpXQNfaRER8pGYsHmzJ3IUhRIXacOJ6rONf1RKG0ZQZfof40dlx_xdWhNyI1a5JwW=w960-h1280-s-no-gm?authuser=0",
     countryName: "Uzbekistan",
     siteName: "diyor-dev",
     emails: "diyorbeksulaymonov70@gmail.com",
