@@ -30,7 +30,7 @@ export const metadata: Metadata = {
       {
         url: "https://lh3.googleusercontent.com/pw/AP1GczMY8bWabI0Pb2d0rtRXQisIjewIxleTbbjssR6KUAjH02ipnrf1oNYec3AGUonA7PcIxI6ew0DFz90DryXOJdpJpXQNfaRER8pGYsHmzJ3IUhRIXacOJ6rONf1RKG0ZQZfof40dlx_xdWhNyI1a5JwW=w960-h1280-s-no-gm?authuser=0",
         width: 960,
-        height: 1280,
+        height: 1000,
         alt: "Diyorbek Sulaymonov",
       },
     ],

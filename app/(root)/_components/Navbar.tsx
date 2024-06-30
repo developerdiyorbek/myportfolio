@@ -10,7 +10,7 @@ const Navbar = () => {
   const pathname = usePathname();
 
   return (
-    <nav className="backdrop-blur-sm sticky inset-0 border-b bg-background h-[10vh]">
+    <header className="backdrop-blur-sm z-50 fixed inset-0 border-b bg-background h-[10vh]">
       <div className="container max-w-6xl mx-auto h-[10vh] w-full flex items-center justify-between">
         {/* Logo */}
         <Link href={"/"}>
@@ -18,7 +18,7 @@ const Navbar = () => {
         </Link>
 
         {/* NavLinks */}
-        <div className="gap-2 hidden md:flex">
+        <nav className="gap-2 hidden md:flex">
           {navLinks.map((nav) => (
             <Link
               href={nav.route}
@@ -30,14 +30,14 @@ const Navbar = () => {
               {nav.name}
             </Link>
           ))}
-        </div>
+        </nav>
 
         <div className="flex items-center gap-1">
           <ModeToggle />
           <HamburgerMenu />
         </div>
       </div>
-    </nav>
+    </header>
   );
 };
 
