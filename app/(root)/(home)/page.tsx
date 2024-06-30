@@ -37,12 +37,12 @@ const Home = () => {
           </Button>
         </Link>{" "}
       </div>
-      <div className="relative size-64 sm:size-80 md:w-[600px] lg:h-[400px] z-10 max-md:my-5 self-center">
+      <div className="relative size-64 sm:size-80 md:w-[600px] lg:h-[400px] z-10 max-md:my-5 self-center bg-transparent">
         <Image
           src={"/myImage.png"}
           alt="myImage"
           fill
-          className={`object-contain flex-1 duration-700 ease-in-out group-hover:opacity-75  ${
+          className={`object-contain flex-1 duration-700 ease-in-out group-hover:opacity-75 bg-transparent  ${
             isLoading ? "blur-xl" : "blur-0"
           }`}
           onLoad={() => setIsLoading(false)}
