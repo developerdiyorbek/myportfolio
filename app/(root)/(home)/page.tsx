@@ -27,7 +27,7 @@ const Home = () => {
           <Button
             variant={"secondary"}
             size={"lg"}
-            className="text-lg text-blue-400 dark:text-white max-md:mb-10"
+            className="text-lg text-blue-400 dark:text-white max-md:mb-10 animate-pulse"
           >
             More about me
           </Button>
