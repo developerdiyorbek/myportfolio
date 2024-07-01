@@ -10,7 +10,7 @@ const Navbar = () => {
   const pathname = usePathname();
 
   return (
-    <header className="backdrop-blur-sm z-50 fixed inset-0 border-b bg-background/95 h-[10vh]">
+    <header className="z-50 fixed inset-0 border-b backdrop-blur-md bg-background/95 h-[10vh]">
       <div className="container max-w-6xl mx-auto h-[10vh] w-full flex items-center justify-between">
         {/* Logo */}
         <Link href={"/"}>
