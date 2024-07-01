@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 
 const Contact = () => {
   return (
-    <section className="w-full mt-[10vh] md:mt-[20vh] max-md:min-h-[90vh] flex max-md:items-center">
+    <section className="w-full mt-[10vh] md:mt-[20vh] max-md:min-h-[90vh] flex max-md:items-center mb-4">
       <div className="grid grid-cols-2 max-md:grid-cols-1 gap-7 md:gap-4 text-muted-foreground">
         <div className="flex flex-col">
           <h1 className="text-3xl">Contact Diyorbek</h1>

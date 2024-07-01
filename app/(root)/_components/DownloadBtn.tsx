@@ -6,7 +6,7 @@ function DownloadBtn() {
     <Link
       href="/myresume.pdf"
       target="_blank"
-      download
+      download={true}
       className="block mb-5 animate-pulse"
     >
       <Button size={"lg"} className="text-[16px]">
