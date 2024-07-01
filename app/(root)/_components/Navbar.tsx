@@ -10,11 +10,13 @@ const Navbar = () => {
   const pathname = usePathname();
 
   return (
-    <header className="backdrop-blur-sm z-50 fixed inset-0 border-b bg-background h-[10vh]">
+    <header className="backdrop-blur-sm z-50 fixed inset-0 border-b bg-background/95 h-[10vh]">
       <div className="container max-w-6xl mx-auto h-[10vh] w-full flex items-center justify-between">
         {/* Logo */}
         <Link href={"/"}>
-          <h1 className="text-3xl md:text-4xl">Diyorbek</h1>
+          <h1 className="text-3xl md:text-4xl text-muted-foreground">
+            Diyorbek
+          </h1>
         </Link>
 
         {/* NavLinks */}
@@ -23,7 +25,7 @@ const Navbar = () => {
             <Link
               href={nav.route}
               key={nav.name}
-              className={`hover:bg-blue-400/20 py-1 px-3 cursor-pointer rounded transition-colors ${
+              className={`hover:bg-blue-400/20 py-1 px-3 cursor-pointer rounded transition-colors text-muted-foreground ${
                 pathname === nav.route && "text-blue-400 bg-blue-400/20"
               }`}
             >
