@@ -1,9 +1,9 @@
 import { Metadata } from "next";
-import DownloadBtn from "../_components/DownloadBtn";
 import { Separator } from "@/components/ui/separator";
 import { aboutInformation, knowledge } from "@/constants";
 import InformationItem from "../_components/InformationItem";
 import KnowlodgeItem from "../_components/KnowlodgeItem";
+import DownloadBtn from "@/components/shared/DownloadBtn";
 
 export const metadata: Metadata = {
   title: "About me",
