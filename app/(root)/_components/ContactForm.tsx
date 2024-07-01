@@ -20,6 +20,7 @@ import { toast } from "sonner";
 
 const ContactForm = () => {
   const [loading, setLoading] = useState(false);
+
   const form = useForm<z.infer<typeof contactSchema>>({
     resolver: zodResolver(contactSchema),
     defaultValues: {

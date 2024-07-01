@@ -1,16 +1,8 @@
 import { Card, CardContent } from "@/components/ui/card";
+import { IProject } from "@/types";
 import { Code, LinkIcon } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-
-interface IProject {
-  id: number;
-  name: string;
-  codeUrl: string;
-  websiteUrl: string;
-  technology: string;
-  image: string;
-}
 
 function PortfolioItem(project: IProject) {
   return (

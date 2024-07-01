@@ -1,9 +1,6 @@
 import { Separator } from "@/components/ui/separator";
+import { Props } from "@/types";
 import { CircleCheck } from "lucide-react";
-
-interface Props {
-  title: string;
-}
 
 function KnowlodgeItem({ title }: Props) {
   return (

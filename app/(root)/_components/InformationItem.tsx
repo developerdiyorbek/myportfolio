@@ -1,8 +1,5 @@
+import { Props } from "@/types";
 import { ChevronRight } from "lucide-react";
-
-interface Props {
-  title: string;
-}
 
 function InformationItem({ title }: Props) {
   return (
