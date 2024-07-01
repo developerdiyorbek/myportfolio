@@ -5,6 +5,7 @@ import NextTopLoader from "nextjs-toploader";
 import { ChildProps } from "@/types";
 import { ThemeProvider } from "@/components/providers/themeProvider";
 import "./globals.css";
+import { Toaster } from "@/components/ui/sonner";
 
 const workSans = Work_Sans({
   subsets: ["latin"],
@@ -52,6 +53,7 @@ export default function RootLayout({ children }: ChildProps) {
         >
           <NextTopLoader showSpinner={false} />
           {children}
+          <Toaster position="top-right" />
         </ThemeProvider>
       </body>
     </html>

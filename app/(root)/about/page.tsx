@@ -27,7 +27,7 @@ const About = () => {
         Frontend React JS developer course at Najot Ta&apos;lim and obtained a
         certification. Additionally, I hold a Bachelor&apos;s degree in Software
         Engineering from TUIT, where I achieved an impressive GPA of 4.1 out of
-        5. My language proficiency includes English (B1 level), Russian (A1
+        5. My language proficiency includes English (B2 level), Russian (A1
         level), and Uzbek (Native). I am eager to apply my knowledge and skills
         as a Frontend developer to contribute effectively to your team.
       </p>
