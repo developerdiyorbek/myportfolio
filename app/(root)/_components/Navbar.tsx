@@ -10,7 +10,7 @@ const Navbar = () => {
   const pathname = usePathname();
 
   return (
-    <header className="z-50 fixed inset-0 border-b bg-background h-[10vh]">
+    <div className="z-50 fixed inset-0 border-b bg-background h-[10vh]">
       <div className="container max-w-6xl mx-auto h-[10vh] w-full flex items-center justify-between">
         {/* Logo */}
         <Link href={"/"}>
@@ -39,7 +39,7 @@ const Navbar = () => {
           <HamburgerMenu />
         </div>
       </div>
-    </header>
+    </div>
   );
 };
 
