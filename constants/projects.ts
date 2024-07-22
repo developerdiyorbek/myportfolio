@@ -16,6 +16,14 @@ export const projects = [
     image: "/gym.png",
   },
   {
+    id: 8,
+    name: "Blogs",
+    codeUrl: "https://github.com/developerdiyorbek/diyor-blog",
+    websiteUrl: "https://www.dili017.uz/",
+    technology: "NextJS, Graphql, Typescript",
+    image: "/blog.png",
+  },
+  {
     id: 3,
     name: "Gmt Website",
     codeUrl: "https://github.com/developerdiyorbek/GMT-project",
@@ -32,14 +40,6 @@ export const projects = [
     image: "/myshop.png",
   },
   {
-    id: 5,
-    name: "Input validation",
-    codeUrl: "https://github.com/developerdiyorbek/Input-Validation",
-    websiteUrl: "https://input-validation2.vercel.app/",
-    technology: "ReactJS, TailwindCSS, CleaveJs",
-    image: "/validation.png",
-  },
-  {
     id: 6,
     name: "Todo App",
     codeUrl: "https://github.com/developerdiyorbek/Todo-App",
@@ -47,6 +47,15 @@ export const projects = [
     technology: "NextJs, MUI, TanStack Query",
     image: "/todo.png",
   },
+  {
+    id: 5,
+    name: "Input validation",
+    codeUrl: "https://github.com/developerdiyorbek/Input-Validation",
+    websiteUrl: "https://input-validation2.vercel.app/",
+    technology: "ReactJS, TailwindCSS, CleaveJs",
+    image: "/validation.png",
+  },
+
   {
     id: 7,
     name: "Pig Game",
