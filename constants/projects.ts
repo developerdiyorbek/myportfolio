@@ -24,6 +24,14 @@ export const projects = [
     image: "/blog.png",
   },
   {
+    id: 9,
+    name: "Input validation",
+    codeUrl: "https://github.com/developerdiyorbek/InputValidation",
+    websiteUrl: "https://input-validation-nltu.vercel.app/en",
+    technology: "NextJS, Shadcn UI, Formik",
+    image: "/validation2.png",
+  },
+  {
     id: 3,
     name: "Gmt Website",
     codeUrl: "https://github.com/developerdiyorbek/GMT-project",
@@ -49,7 +57,7 @@ export const projects = [
   },
   {
     id: 5,
-    name: "Input validation",
+    name: "Input Steps",
     codeUrl: "https://github.com/developerdiyorbek/Input-Validation",
     websiteUrl: "https://input-validation2.vercel.app/",
     technology: "ReactJS, TailwindCSS, CleaveJs",
