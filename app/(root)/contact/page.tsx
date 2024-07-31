@@ -1,4 +1,3 @@
-import { Separator } from "@/components/ui/separator";
 import { Mail, Phone } from "lucide-react";
 import { Metadata } from "next";
 import ContactForm from "../_components/ContactForm";

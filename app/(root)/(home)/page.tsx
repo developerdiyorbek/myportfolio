@@ -6,13 +6,13 @@ const Home = () => {
   return (
     <section className="w-full  mt-[10vh] min-h-[90vh] flex max-lg:flex-col-reverse home-page">
       <div className="w-full md:self-center">
-        <h2 className="mb-6 text-muted-foreground text-[22px] md:text-[24px] font-semibold text-center lg:text-left">
+        <h1 className="mb-6 text-muted-foreground text-[22px] md:text-[24px] font-semibold text-center lg:text-left">
           Hello, my name is
           <br />{" "}
           <span className="text-[21px] sm:text-[28px]  text-blue-400 dark:text-white">
             Diyorbek Sulaymonov
           </span>
-        </h2>
+        </h1>
         <h3 className="mb-8 md:text-[36px] text-[24px] font-bold text-center lg:text-left">
           <span className="text-muted-foreground">I am a </span>
           <span className="md:text-[38px] text-[25px] text-blue-400 dark:text-white">

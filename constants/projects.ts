@@ -9,22 +9,23 @@ export const projects = [
   },
   {
     id: 2,
-    name: "Gym App",
-    codeUrl: "https://github.com/developerdiyorbek/Gym-Project",
-    websiteUrl: "https://gym-project-24f84.web.app/",
-    technology: "ReactJS, Shadcn UI, Firebase",
-    image: "/gym.png",
+    name: "Myshop Website",
+    codeUrl: "https://github.com/developerdiyorbek/E-Commerce",
+    websiteUrl: "https://e-commerce-ashy-beta-75.vercel.app/",
+    technology: "NextJS, Formik, React-Query",
+    image: "/myshop.png",
   },
   {
-    id: 8,
+    id: 3,
     name: "Blogs",
     codeUrl: "https://github.com/developerdiyorbek/diyor-blog",
     websiteUrl: "https://www.dili017.uz/",
     technology: "NextJS, Graphql, Typescript",
     image: "/blog.png",
   },
+
   {
-    id: 9,
+    id: 4,
     name: "Input validation",
     codeUrl: "https://github.com/developerdiyorbek/InputValidation",
     websiteUrl: "https://input-validation-nltu.vercel.app/en",
@@ -32,7 +33,7 @@ export const projects = [
     image: "/validation2.png",
   },
   {
-    id: 3,
+    id: 5,
     name: "Gmt Website",
     codeUrl: "https://github.com/developerdiyorbek/GMT-project",
     websiteUrl: "https://gmt-project-ehrf.vercel.app/",
@@ -40,15 +41,16 @@ export const projects = [
     image: "/gmt.png",
   },
   {
-    id: 4,
-    name: "Myshop Website",
-    codeUrl: "https://github.com/developerdiyorbek/My-shop",
-    websiteUrl: "https://my-shop-five-brown.vercel.app",
-    technology: "NextJS, TailwindCSS, Typescript",
-    image: "/myshop.png",
-  },
-  {
     id: 6,
+    name: "Gym App",
+    codeUrl: "https://github.com/developerdiyorbek/Gym-Project",
+    websiteUrl: "https://gym-project-24f84.web.app/",
+    technology: "ReactJS, Shadcn UI, Firebase",
+    image: "/gym.png",
+  },
+
+  {
+    id: 7,
     name: "Todo App",
     codeUrl: "https://github.com/developerdiyorbek/Todo-App",
     websiteUrl: "https://todo-app-tqsr.vercel.app/",
@@ -56,7 +58,7 @@ export const projects = [
     image: "/todo.png",
   },
   {
-    id: 5,
+    id: 8,
     name: "Input Steps",
     codeUrl: "https://github.com/developerdiyorbek/Input-Validation",
     websiteUrl: "https://input-validation2.vercel.app/",
@@ -65,7 +67,16 @@ export const projects = [
   },
 
   {
-    id: 7,
+    id: 9,
+    name: "Rest countries",
+    codeUrl: "https://github.com/developerdiyorbek/Rest-Countries",
+    websiteUrl: "https://rest-countries2.vercel.app/",
+    technology: "ReactJS, TailwindCSS, React-router-dom",
+    image: "/restCountries.png",
+  },
+
+  {
+    id: 10,
     name: "Pig Game",
     codeUrl: "https://github.com/developerdiyorbek/Pig-Game",
     websiteUrl: "https://pig-game-alpha-two.vercel.app/",
