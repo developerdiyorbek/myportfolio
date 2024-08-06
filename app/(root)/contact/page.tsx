@@ -21,12 +21,14 @@ const Contact = () => {
           <Link
             href={"mailto: diyorbeksulaymonov70@gmail.com"}
             className="mt-12 flex items-center gap-3"
+            aria-label="contact-email"
           >
             <Mail className="w-4 h-4 animate-pulse" />
             <p className="text-sm">diyorbeksulaymonov70@gmail.com</p>
           </Link>
           <Link
             href={"tel:+998936221907"}
+            aria-label="contact-phonenumber"
             className="mt-2 flex items-center gap-3"
           >
             <Phone className="w-4 h-4 animate-bounce" />

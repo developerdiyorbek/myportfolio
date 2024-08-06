@@ -8,6 +8,7 @@ function DownloadBtn() {
       target="_blank"
       download={true}
       className="block mb-5 animate-pulse"
+      aria-label="download-cv"
     >
       <Button size={"lg"} className="text-[16px]">
         Download CV

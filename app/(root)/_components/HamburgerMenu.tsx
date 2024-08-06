@@ -1,12 +1,12 @@
 "use client";
 
-import VisuallyHidden from "@/components/shared/visuallyHidden";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import {
   Sheet,
   SheetContent,
   SheetDescription,
+  SheetHeader,
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
@@ -27,18 +27,19 @@ const HamburgerMenu = () => {
   return (
     <Sheet open={isOpen} onOpenChange={setIsOpen}>
       <SheetTrigger asChild className="flex md:hidden">
-        <Button size={"icon"} variant={"ghost"} onClick={() => setIsOpen(true)}>
+        <Button
+          size={"icon"}
+          variant={"ghost"}
+          onClick={() => setIsOpen(true)}
+          aria-label="hamburgermenu"
+        >
           <Menu />
         </Button>
       </SheetTrigger>
       <SheetContent side={"left"}>
-        <VisuallyHidden>
-          <SheetTitle>Menu</SheetTitle>
-          <SheetDescription>
-            This is the menu for navigation links
-          </SheetDescription>
-        </VisuallyHidden>
-        <Link href={"/"}>
+        <SheetTitle></SheetTitle>
+        <SheetDescription></SheetDescription>
+        <Link href={"/"} aria-label="to-main-page">
           <h1 className="text-3xl md:text-4xl">Diyorbek</h1>
         </Link>
         <Separator className="my-3" />

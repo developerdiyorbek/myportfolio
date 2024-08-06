@@ -13,7 +13,7 @@ const Navbar = () => {
     <div className="z-50 fixed inset-0 border-b bg-background h-[10vh]">
       <div className="container max-w-6xl mx-auto h-[10vh] w-full flex items-center justify-between">
         {/* Logo */}
-        <Link href={"/"}>
+        <Link href={"/"} aria-label="to-main-page">
           <h1 className="text-3xl md:text-4xl text-muted-foreground">
             Diyorbek
           </h1>

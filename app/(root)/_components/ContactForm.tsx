@@ -120,6 +120,7 @@ const ContactForm = () => {
             size={"lg"}
             type="submit"
             disabled={loading}
+            aria-label="sendBtn"
           >
             <span>Send</span>
             <Send className="w-4 h-4 ml-2 animate-pulse" />

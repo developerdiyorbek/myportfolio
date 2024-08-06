@@ -12,11 +12,21 @@ const ModeToggle = () => {
   useEffect(() => setMount(true), []);
 
   return mount && resolvedTheme === "dark" ? (
-    <Button size={"icon"} variant={"ghost"} onClick={() => setTheme("light")}>
+    <Button
+      size={"icon"}
+      variant={"ghost"}
+      onClick={() => setTheme("light")}
+      aria-label="to-light"
+    >
       <Sun className="w-5 h-5" />
     </Button>
   ) : (
-    <Button size={"icon"} variant={"ghost"} onClick={() => setTheme("dark")}>
+    <Button
+      size={"icon"}
+      variant={"ghost"}
+      onClick={() => setTheme("dark")}
+      aria-label="to-dark"
+    >
       <Moon className="w-5 h-5" />
     </Button>
   );
