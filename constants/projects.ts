@@ -1,5 +1,13 @@
 export const projects = [
   {
+    id: 11,
+    name: "Diyordemy",
+    codeUrl: "",
+    websiteUrl: "https://diyordemy.uz/",
+    technology: "NextJS, MongoDB, Stripe",
+    image: "/diyordemy.png",
+  },
+  {
     id: 1,
     name: "Dachi V Gorax",
     codeUrl: "",
@@ -7,6 +15,7 @@ export const projects = [
     technology: "ReactJS, Bootstrap, TanStack Query",
     image: "/dachi.png",
   },
+
   {
     id: 2,
     name: "Myshop Website",
