@@ -1,8 +1,11 @@
+"use client";
+
 import { Card, CardContent } from "@/components/ui/card";
 import { IProject } from "@/types";
 import { Code, LinkIcon } from "lucide-react";
 import Link from "next/link";
 import CustomImage from "./CustomImage";
+import { Bounce, Fade, Flip } from "react-awesome-reveal";
 
 function PortfolioItem(project: IProject) {
   return (
@@ -22,14 +25,16 @@ function PortfolioItem(project: IProject) {
           <Link href={project.codeUrl} target="_blank" aria-label="codeUrl">
             <Code />
           </Link>
-          <Link
-            href={project.websiteUrl}
-            target="_blank"
-            title="Live Preview"
-            aria-label="websiteUrl"
-          >
-            <LinkIcon />
-          </Link>
+          <Flip>
+            <Link
+              href={project.websiteUrl}
+              target="_blank"
+              title="Live Preview"
+              aria-label="websiteUrl"
+            >
+              <LinkIcon />
+            </Link>
+          </Flip>
         </div>
       </div>
     </Card>

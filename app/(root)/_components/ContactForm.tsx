@@ -63,7 +63,9 @@ const ContactForm = () => {
 
   return (
     <div>
-      <h2 className="text-4xl text-muted-foreground mb-2">Contact form</h2>
+      <h2 className="text-3xl md:text-4xl text-muted-foreground mb-2">
+        Contact form
+      </h2>
       <Form {...form}>
         <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-3">
           <FormField

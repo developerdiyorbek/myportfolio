@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
+import NameAnimation from "./_components/NameAnimation";
 
 const Home = () => {
   return (
@@ -8,10 +9,7 @@ const Home = () => {
       <div className="w-full md:self-center">
         <h1 className="mb-6 text-muted-foreground text-[22px] md:text-[24px] font-semibold text-center lg:text-left">
           Hello, my name is
-          <br />{" "}
-          <span className="text-[21px] sm:text-[28px]  text-blue-400 dark:text-white">
-            Diyorbek Sulaymonov
-          </span>
+          <br /> <NameAnimation />
         </h1>
         <div className="mb-8 md:text-[36px] text-[24px] font-bold text-center lg:text-left">
           <span className="text-muted-foreground">I am a </span>
