@@ -10,7 +10,11 @@ function DownloadBtn() {
       className="block mb-5 animate-pulse"
       aria-label="download-cv"
     >
-      <Button size={"lg"} className="text-[16px]">
+      <Button
+        size={"lg"}
+        variant={"secondary"}
+        className="max-md:text-[16px] text-[17px] text-blue-400 dark:text-white"
+      >
         Download CV
       </Button>
     </Link>

@@ -112,3 +112,18 @@ export const knowledge = [
     title: "SEO(Search engine optimization)",
   },
 ];
+
+export const backEndKnowlodge = [
+  {
+    id: 1,
+    title: "Node JS (basic)",
+  },
+  {
+    id: 2,
+    title: "Express JS (basic)",
+  },
+  {
+    id: 3,
+    title: "MongoDB (basic)",
+  },
+];

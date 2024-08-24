@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 import { Separator } from "@/components/ui/separator";
-import { aboutInformation, knowledge } from "@/constants";
+import { aboutInformation, backEndKnowlodge, knowledge } from "@/constants";
 import InformationItem from "../_components/InformationItem";
 import KnowlodgeItem from "../_components/KnowlodgeItem";
 import DownloadBtn from "@/components/shared/DownloadBtn";
@@ -45,8 +45,22 @@ const About = () => {
         <Separator />
       </div>
 
+      <h3 className="text-[18px] mb-2 md:mb-4 text-muted-foreground md:text-[28px] font-semibold">
+        Frontend
+      </h3>
+
       <ul className="grid md:grid-cols-2 gap-2 mb-5 md:mb-8">
         {knowledge.map(({ id, title }) => (
+          <KnowlodgeItem key={id} title={title} />
+        ))}
+      </ul>
+
+      <h3 className="text-[18px] text-muted-foreground md:text-[28px] mb-2 md:mb-4 font-semibold">
+        Backend
+      </h3>
+
+      <ul className="grid md:grid-cols-2 gap-2 mb-5 md:mb-8">
+        {backEndKnowlodge.map(({ id, title }) => (
           <KnowlodgeItem key={id} title={title} />
         ))}
       </ul>
