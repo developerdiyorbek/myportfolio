@@ -52,7 +52,23 @@ export const knowledge = [
   },
   {
     id: 9,
-    title: "CSS (SASS/SCSS, TailwindCSS/Bootstrap/MUI/Shadcn UI)",
+    title: "CSS (SASS/SCSS)",
+  },
+  {
+    id: 24,
+    title: "Tailwind CSS",
+  },
+  {
+    id: 25,
+    title: "Material UI",
+  },
+  {
+    id: 26,
+    title: "Bootstrap",
+  },
+  {
+    id: 27,
+    title: "Shadcn UI",
   },
   {
     id: 10,
