@@ -105,7 +105,7 @@ export const knowledge = [
   },
   {
     id: 18,
-    title: "Git/Github",
+    title: "Git/Github/GitLab",
   },
   {
     id: 19,
@@ -126,6 +126,14 @@ export const knowledge = [
   {
     id: 23,
     title: "SEO(Search engine optimization)",
+  },
+  {
+    id: 24,
+    title: "React-i18next",
+  },
+  {
+    id: 25,
+    title: "Next-intl",
   },
 ];
 
