@@ -1,21 +1,12 @@
 export const projects = [
   {
-    id: 11,
+    id: 1,
     name: "Diyordemy",
     codeUrl: "",
     websiteUrl: "https://diyordemy.uz/",
     technology: "NextJS, MongoDB, Stripe",
     image: "/diyordemy.png",
   },
-  {
-    id: 1,
-    name: "Dachi V Gorax",
-    codeUrl: "",
-    websiteUrl: "https://dachivgorax.uz/",
-    technology: "ReactJS, Bootstrap, TanStack Query",
-    image: "/dachi.png",
-  },
-
   {
     id: 2,
     name: "Myshop Website",
@@ -57,9 +48,16 @@ export const projects = [
     technology: "ReactJS, Shadcn UI, Firebase",
     image: "/gym.png",
   },
-
   {
     id: 7,
+    name: "Map of Uzbekistan",
+    codeUrl: "https://github.com/developerdiyorbek/Map-of-Uzbekistan",
+    websiteUrl: "https://map-of-uzbekistan.vercel.app/",
+    technology: "ReactJS,  react-i18n, typescript",
+    image: "/uzbekistanmap.png",
+  },
+  {
+    id: 8,
     name: "Todo App",
     codeUrl: "https://github.com/developerdiyorbek/Todo-App",
     websiteUrl: "https://todo-app-tqsr.vercel.app/",
@@ -67,7 +65,7 @@ export const projects = [
     image: "/todo.png",
   },
   {
-    id: 8,
+    id: 9,
     name: "Input Steps",
     codeUrl: "https://github.com/developerdiyorbek/Input-Validation",
     websiteUrl: "https://input-validation2.vercel.app/",
@@ -76,7 +74,7 @@ export const projects = [
   },
 
   {
-    id: 9,
+    id: 10,
     name: "Rest countries",
     codeUrl: "https://github.com/developerdiyorbek/Rest-Countries",
     websiteUrl: "https://rest-countries2.vercel.app/",
@@ -85,7 +83,7 @@ export const projects = [
   },
 
   {
-    id: 10,
+    id: 11,
     name: "Pig Game",
     codeUrl: "https://github.com/developerdiyorbek/Pig-Game",
     websiteUrl: "https://pig-game-alpha-two.vercel.app/",
