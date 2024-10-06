@@ -58,11 +58,11 @@ export const projects = [
   },
   {
     id: 8,
-    name: "Todo App",
-    codeUrl: "https://github.com/developerdiyorbek/Todo-App",
-    websiteUrl: "https://todo-app-tqsr.vercel.app/",
-    technology: "NextJs, MUI, TanStack Query",
-    image: "/todo.png",
+    name: "Full Stack Todo App",
+    codeUrl: "https://github.com/developerdiyorbek/Full-Stack-Todo-App",
+    websiteUrl: "https://full-todo-app-one.vercel.app/",
+    technology: "Next JS, MongoDB, Shadcn UI",
+    image: "/fullStackTodo.png",
   },
   {
     id: 9,
