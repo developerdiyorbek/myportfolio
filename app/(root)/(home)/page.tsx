@@ -37,9 +37,10 @@ const Home = () => {
       </div>
       <div className="relative size-64 sm:size-80 lg:w-[600px] lg:h-[400px] z-10 max-lg:my-5 self-center bg-transparent">
         <Image
-          src={"/myImage.png"}
+          src={"/myPhoto.jpg"}
           alt="myImage"
           priority
+          className="rounded-full object-cover"
           fill
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         />
