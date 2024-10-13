@@ -61,7 +61,7 @@ export const projects = [
     name: "Full Stack Todo App",
     codeUrl: "https://github.com/developerdiyorbek/Full-Stack-Todo-App",
     websiteUrl: "https://full-todo-app-one.vercel.app/",
-    technology: "Next JS, MongoDB, Shadcn UI",
+    technology: "Next JS, MongoDB, Shadcn UI, PWA",
     image: "/fullStackTodo.png",
   },
   {
