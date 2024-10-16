@@ -4,7 +4,7 @@ import Link from "next/link";
 function DownloadBtn() {
   return (
     <Link
-      href="/myResume.pdf"
+      href="/resume.pdf"
       target="_blank"
       download={true}
       className="block mb-5 animate-pulse"
