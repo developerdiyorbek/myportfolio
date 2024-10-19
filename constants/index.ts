@@ -4,6 +4,13 @@ import {
   UserRound,
   BriefcaseBusiness,
 } from "lucide-react";
+import { FaTelegram } from "react-icons/fa6";
+import { BsTelephoneFill } from "react-icons/bs";
+import { FaYoutube } from "react-icons/fa6";
+import { FaFacebook } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
+import { FaInstagram } from "react-icons/fa";
 
 export const navLinks = [
   { name: "Home", route: "/", icon: Home },
@@ -149,5 +156,57 @@ export const backEndKnowlodge = [
   {
     id: 3,
     title: "MongoDB (basic)",
+  },
+];
+
+export const socialLinks = [
+  {
+    id: 1,
+    icon: FaTelegram,
+    link: "https://t.me/Sulaymonov_D",
+    color: "bg-telegram",
+    target: "_blank",
+  },
+  {
+    id: 2,
+    icon: BsTelephoneFill,
+    link: "tel:+998936221907",
+    color: "bg-phone",
+    target: "_self",
+  },
+  {
+    id: 3,
+    icon: FaYoutube,
+    link: "https://www.youtube.com/@diyorrdev",
+    color: "bg-youtube",
+    target: "_blank",
+  },
+  {
+    id: 4,
+    icon: FaFacebook,
+    link: "https://www.facebook.com/profile.php?id=61566113841324",
+    color: "bg-facebook",
+    target: "_blank",
+  },
+  {
+    id: 5,
+    icon: FaLinkedinIn,
+    link: "https://www.linkedin.com/in/diyorbeksulaymonov",
+    color: "bg-linkedIn",
+    target: "_blank",
+  },
+  {
+    id: 6,
+    icon: MdEmail,
+    link: "mailto:diyorbeksulaymonov70@gmail.com",
+    color: "bg-email",
+    target: "_blank",
+  },
+  {
+    id: 7,
+    icon: FaInstagram,
+    link: "https://www.instagram.com/djurabayev1ch",
+    color: "bg-instagram",
+    target: "_blank",
   },
 ];
