@@ -177,7 +177,7 @@ export const socialLinks = [
   {
     id: 3,
     icon: FaYoutube,
-    link: "https://www.youtube.com/@diyorrdev",
+    link: "https://www.youtube.com/@DiyorbekDeveloper",
     color: "bg-youtube",
     target: "_blank",
   },
