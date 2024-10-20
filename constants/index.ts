@@ -163,7 +163,7 @@ export const socialLinks = [
   {
     id: 1,
     icon: FaTelegram,
-    link: "https://t.me/Sulaymonov_D",
+    link: "https://t.me/DiyorbekDeveloper",
     color: "bg-telegram",
     target: "_blank",
   },
