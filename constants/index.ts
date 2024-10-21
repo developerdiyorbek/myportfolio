@@ -168,13 +168,6 @@ export const socialLinks = [
     target: "_blank",
   },
   {
-    id: 2,
-    icon: BsTelephoneFill,
-    link: "tel:+998936221907",
-    color: "bg-phone",
-    target: "_self",
-  },
-  {
     id: 3,
     icon: FaYoutube,
     link: "https://www.youtube.com/@DiyorbekDeveloper",
