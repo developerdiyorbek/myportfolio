@@ -98,6 +98,10 @@ export const knowledge = [
     title: "Redux/Redux Toolkit",
   },
   {
+    id: 26,
+    title: "RTK query",
+  },
+  {
     id: 15,
     title: "Zustand",
   },
