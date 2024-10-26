@@ -1,3 +1,4 @@
+import { GoogleAnalytics } from "@next/third-parties/google";
 import type { Metadata } from "next";
 import { Work_Sans } from "next/font/google";
 import NextTopLoader from "nextjs-toploader";
@@ -50,6 +51,7 @@ export default function RootLayout({ children }: ChildProps) {
           <Toaster position="top-right" />
         </ThemeProvider>
       </body>
+      <GoogleAnalytics gaId="G-T434QWZ4EZ" />
     </html>
   );
 }
