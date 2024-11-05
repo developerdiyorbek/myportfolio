@@ -7,7 +7,7 @@ function MainProvider({ children }: ChildProps) {
   return (
     <>
       {children}
-      <Snowfall />
+      <Snowfall snowflakeCount={100} speed={[0, 2]} />
     </>
   );
 }
