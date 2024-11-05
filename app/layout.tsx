@@ -6,8 +6,10 @@ import NextTopLoader from "nextjs-toploader";
 import { ChildProps } from "@/types";
 import { ThemeProvider } from "@/components/providers/themeProvider";
 import { Toaster } from "@/components/ui/sonner";
+import Snowfall from "react-snowfall";
 
 import "./globals.css";
+import MainProvider from "@/components/providers/Provider";
 
 const workSans = Work_Sans({
   subsets: ["latin"],
@@ -47,7 +49,7 @@ export default function RootLayout({ children }: ChildProps) {
           disableTransitionOnChange
         >
           <NextTopLoader showSpinner={false} />
-          {children}
+          <MainProvider>{children}</MainProvider>
           <Toaster position="top-right" />
         </ThemeProvider>
       </body>

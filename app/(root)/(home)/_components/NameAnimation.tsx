@@ -1,4 +1,5 @@
 "use client";
+
 import { Fade } from "react-awesome-reveal";
 
 function NameAnimation() {
