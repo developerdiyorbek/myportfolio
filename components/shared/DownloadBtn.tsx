@@ -13,7 +13,7 @@ function DownloadBtn() {
       <Button
         size={"lg"}
         variant={"secondary"}
-        className="max-md:text-[16px] text-[17px] text-blue-400 dark:text-white"
+        className="max-md:text-[16px] text-[17px] text-main dark:text-white"
       >
         Download CV
       </Button>

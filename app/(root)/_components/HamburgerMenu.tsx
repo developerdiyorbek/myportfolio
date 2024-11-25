@@ -40,7 +40,7 @@ const HamburgerMenu = () => {
         <SheetTitle></SheetTitle>
         <SheetDescription></SheetDescription>
         <Link href={"/"} aria-label="to-main-page">
-          <h1 className="text-3xl md:text-4xl">Diyorbek</h1>
+          <h1 className="text-3xl md:text-4xl dark:text-white">Diyorbek</h1>
         </Link>
         <Separator className="my-3" />
         <div className="flex flex-col space-y-2">
@@ -48,8 +48,8 @@ const HamburgerMenu = () => {
             <Link
               href={nav.route}
               key={nav.name}
-              className={`hover:bg-blue-400/20 py-[6px] px-3 cursor-pointer rounded transition-colors flex items-center gap-2 ${
-                pathname === nav.route && "text-blue-400 bg-blue-400/20"
+              className={`hover:bg-main hover:text-white py-[6px] px-3 cursor-pointer rounded transition-colors flex items-center gap-2 ${
+                pathname === nav.route && "text-white bg-main"
               }`}
             >
               <nav.icon className="w-5 h-5" />

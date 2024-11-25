@@ -13,7 +13,7 @@ const Home = () => {
         </h1>
         <div className="mb-8 md:text-[36px] text-[24px] font-bold text-center lg:text-left">
           <span className="text-muted-foreground">I am a </span>
-          <span className="md:text-[38px] text-[25px] text-blue-400 dark:text-white">
+          <span className="md:text-[38px] text-[25px] text-main dark:text-white">
             Frontend developer
           </span>
         </div>
@@ -29,7 +29,7 @@ const Home = () => {
           <Button
             variant={"secondary"}
             size={"lg"}
-            className="text-lg text-blue-400 dark:text-white max-md:mb-10 animate-pulse"
+            className="text-lg text-main dark:text-white max-md:mb-10 animate-pulse"
           >
             More about me
           </Button>

@@ -14,7 +14,9 @@ const Contact = () => {
     <section className="w-full mt-[10vh] md:mt-[20vh] max-md:min-h-[90vh] flex max-md:items-center mb-4">
       <div className="grid grid-cols-2 max-md:grid-cols-1 gap-7 md:gap-4 text-muted-foreground">
         <div className="flex flex-col">
-          <h1 className="text-3xl">Contact Diyorbek</h1>
+          <h1 className="text-3xl dark:text-white text-main">
+            Contact Diyorbek
+          </h1>
           <p className="mt-2 mb-4">
             I am here to help and answer any question you might have. I look
             forward to hearing from you

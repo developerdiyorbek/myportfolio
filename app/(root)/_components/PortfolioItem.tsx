@@ -5,7 +5,6 @@ import { IProject } from "@/types";
 import { Code, LinkIcon } from "lucide-react";
 import Link from "next/link";
 import CustomImage from "./CustomImage";
-import { Bounce, Fade, Flip } from "react-awesome-reveal";
 
 function PortfolioItem(project: IProject) {
   return (
@@ -18,23 +17,29 @@ function PortfolioItem(project: IProject) {
         />
       </CardContent>
       <div className="my-4 flex flex-col space-y-2 px-2 text-muted-foreground">
-        <h3 className="line-clamp-1 text-2xl text-center">{project.name}</h3>
+        <h3 className="line-clamp-1 text-2xl text-center dark:text-white text-main">
+          {project.name}
+        </h3>
         <p className="text-center mb-4">{project.technology}</p>
 
         <div className="flex items-center justify-center gap-4">
-          <Link href={project.codeUrl} target="_blank" aria-label="codeUrl">
+          <Link
+            href={project.codeUrl}
+            target="_blank"
+            aria-label="codeUrl"
+            className="hover:scale-110 transition-all duration-200"
+          >
             <Code />
           </Link>
-          <Flip>
-            <Link
-              href={project.websiteUrl}
-              target="_blank"
-              title="Live Preview"
-              aria-label="websiteUrl"
-            >
-              <LinkIcon />
-            </Link>
-          </Flip>
+          <Link
+            href={project.websiteUrl}
+            target="_blank"
+            title="Live Preview"
+            aria-label="websiteUrl"
+            className="hover:scale-110 transition-all duration-200"
+          >
+            <LinkIcon />
+          </Link>
         </div>
       </div>
     </Card>

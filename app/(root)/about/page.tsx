@@ -13,13 +13,14 @@ const About = () => {
   return (
     <section className="w-full mt-[10vh] min-h-[90vh]">
       <div className="inline-block mb-4 mt-4 md:mb-8">
-        <h1 className="text-[25px] text-muted-foreground md:text-[35px] font-semibold">
+        <h1 className="text-[25px] text-main md:text-[35px] dark:text-white font-semibold">
           About me
         </h1>
         <Separator />
       </div>
       <h2 className="font-medium text-[24px] md:text-[28px] text-muted-foreground mb-2 md:mb-4">
-        I am a <span className="text-blue-400">Frontend Developer</span>
+        I am a{" "}
+        <span className="text-main dark:text-white">Frontend Developer</span>
       </h2>
       <p className="text-[16px] md:text-[17px] mb-10 md:mb-16 text-muted-foreground">
         Hello, my name is Diyorbek and I am a Frontend developer with a strong
@@ -45,7 +46,7 @@ const About = () => {
         <Separator />
       </div>
 
-      <h3 className="text-[18px] mb-2 md:mb-4 text-muted-foreground md:text-[28px] font-semibold">
+      <h3 className="text-[18px] mb-2 md:mb-4 text-main dark:text-white md:text-[28px] font-semibold">
         Frontend
       </h3>
 
@@ -55,7 +56,7 @@ const About = () => {
         ))}
       </ul>
 
-      <h3 className="text-[18px] text-muted-foreground md:text-[28px] mb-2 md:mb-4 font-semibold">
+      <h3 className="text-[18px] text-main dark:text-white md:text-[28px] mb-2 md:mb-4 font-semibold">
         Backend
       </h3>
 

@@ -11,7 +11,7 @@ const Portfolio = () => {
   return (
     <section className="w-full mt-[10vh] min-h-[90vh]">
       <div className="inline-block mb-8 mt-4 md:mb-10">
-        <h1 className="text-[25px] text-muted-foreground md:text-[35px] font-semibold">
+        <h1 className="text-[25px] text-main dark:text-white md:text-[35px] font-semibold">
           My works
         </h1>
         <Separator />

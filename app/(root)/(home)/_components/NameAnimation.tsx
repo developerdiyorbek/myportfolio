@@ -7,7 +7,7 @@ function NameAnimation() {
     <Fade
       cascade
       duration={500}
-      className="text-[21px] sm:text-[28px]  text-blue-400 dark:text-white"
+      className="text-[21px] sm:text-[28px]  text-main dark:text-white"
     >
       Diyorbek Sulaymonov
     </Fade>
