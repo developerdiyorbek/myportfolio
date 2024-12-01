@@ -47,7 +47,7 @@ export default function RootLayout({ children }: ChildProps) {
         >
           <NextTopLoader showSpinner={false} color="#16A349" />
           {children}
-          <Toaster position="top-right" />
+          <Toaster position="bottom-right" />
         </ThemeProvider>
       </body>
     </html>
