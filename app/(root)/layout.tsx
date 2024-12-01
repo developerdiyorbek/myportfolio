@@ -4,9 +4,7 @@ import Navbar from "./_components/Navbar";
 const Layout = ({ children }: ChildProps) => {
   return (
     <>
-      <header>
-        <Navbar />
-      </header>
+      <Navbar />
       <main className="container mx-auto max-w-6xl">{children}</main>
     </>
   );

@@ -7,7 +7,6 @@ import { ThemeProvider } from "@/components/providers/themeProvider";
 import { Toaster } from "@/components/ui/sonner";
 
 import "./globals.css";
-import MainProvider from "@/components/providers/Provider";
 
 const workSans = Work_Sans({
   subsets: ["latin"],
@@ -46,8 +45,8 @@ export default function RootLayout({ children }: ChildProps) {
           enableSystem
           disableTransitionOnChange
         >
-          <NextTopLoader showSpinner={false} />
-          <MainProvider>{children}</MainProvider>
+          <NextTopLoader showSpinner={false} color="#16A349" />
+          {children}
           <Toaster position="top-right" />
         </ThemeProvider>
       </body>
