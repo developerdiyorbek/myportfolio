@@ -1,5 +1,13 @@
 export const projects = [
   {
+    id: 12,
+    name: "Mypolis",
+    codeUrl: "",
+    websiteUrl: "https://mypolis.agros.uz/uz",
+    technology: "NextJS, Shadcn UI, PWA",
+    image: "/mypolis.png",
+  },
+  {
     id: 1,
     name: "Diyordemy",
     codeUrl: "",

@@ -5,7 +5,6 @@ import {
   BriefcaseBusiness,
 } from "lucide-react";
 import { FaTelegram } from "react-icons/fa6";
-import { BsTelephoneFill } from "react-icons/bs";
 import { FaYoutube } from "react-icons/fa6";
 import { FaFacebook } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
