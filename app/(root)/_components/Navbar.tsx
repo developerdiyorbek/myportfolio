@@ -2,9 +2,9 @@
 
 import ModeToggle from "@/components/shared/modeToggle";
 import { navLinks } from "@/constants";
-import Link from "next/link";
 import { usePathname } from "next/navigation";
 import HamburgerMenu from "./HamburgerMenu";
+import { Link } from "next-view-transitions";
 
 const Navbar = () => {
   const pathname = usePathname();

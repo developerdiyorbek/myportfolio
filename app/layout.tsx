@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Work_Sans } from "next/font/google";
 import NextTopLoader from "nextjs-toploader";
-
+import { ViewTransitions } from "next-view-transitions";
 import { ChildProps } from "@/types";
 import { ThemeProvider } from "@/components/providers/themeProvider";
 import { Toaster } from "@/components/ui/sonner";
@@ -37,19 +37,21 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: ChildProps) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <body className={`${workSans.variable} overflow-x-hidden`}>
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="system"
-          enableSystem
-          disableTransitionOnChange
-        >
-          <NextTopLoader showSpinner={false} color="#16A349" />
-          {children}
-          <Toaster position="bottom-right" />
-        </ThemeProvider>
-      </body>
-    </html>
+    <ViewTransitions>
+      <html lang="en" suppressHydrationWarning>
+        <body className={`${workSans.variable} overflow-x-hidden`}>
+          <ThemeProvider
+            attribute="class"
+            defaultTheme="system"
+            enableSystem
+            disableTransitionOnChange
+          >
+            <NextTopLoader showSpinner={false} color="#16A349" />
+            {children}
+            <Toaster position="bottom-right" />
+          </ThemeProvider>
+        </body>
+      </html>
+    </ViewTransitions>
   );
 }
